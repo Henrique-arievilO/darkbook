@@ -2,11 +2,12 @@
     --color00: #FFFFFF;
     --color01: #0A0312;
     --color02: #22004A;
-    --color03: #5200B0;
-    --color04: #C3C3C3;
-    --color05: #555555;
-    --color06: #9A8141;
-    --color07: #000000;
+    --color03: #360b67;
+    --color04: #5200B0;
+    --color05: #a9a9a9;
+    --color06: #555555;
+    --color07: #9A8141;
+    --color08: #000000;
 }
 
 .color-00 {
@@ -35,4 +36,12 @@
 
 .color-06 {
     color: var(--color06);
+}
+
+.color-07 {
+    color: var(--color07);
+}
+
+.color-08 {
+    color: var(--color08);
 }
