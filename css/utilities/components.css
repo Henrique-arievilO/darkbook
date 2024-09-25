@@ -18,6 +18,13 @@
     margin: 0 auto;
 }
 
+/* grid */
+.grid-1-3 {
+    display: grid;
+    grid-template-columns: 1fr 1fr 1fr;
+    gap: 60px;
+}
+
 /* Modal */
 .modal {
     display: none;

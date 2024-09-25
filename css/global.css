@@ -50,6 +50,7 @@ main h1 {
     justify-content: space-between;
     align-items: center;
     gap: 40px;
+    margin: 0 auto;
 }
 
 .card {
@@ -106,6 +107,45 @@ main h1 {
     margin-bottom: 20px;
     list-style-image: url(../assets/marcador.png);
     list-style-position: inside;
+}
+
+/* Advantages */
+.advantages {
+    background: var(--color00);
+}
+
+.advantages svg {
+    max-width: 70px;
+    display: block;
+    margin: 0 auto;
+}
+
+.advantages h1 {
+    text-align: center;
+    margin-bottom: 40px;
+}
+
+.advantages h2 {
+    text-align: center;
+    margin: 20px auto;
+}
+
+.advantages p {
+    text-align: center;
+    margin-bottom: 80px;
+    line-height: 1.5rem;
+}
+
+svg.animate path {
+    animation: svg-animate 3s forwards infinite ease-in;
+}
+
+@keyframes svg-animate {
+    from {}
+
+    to {
+        stroke-dashoffset: 0;
+    }
 }
 
 /* Footer */
